@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+    PC: >=1024px 
+    Tablet: 740px =< X <1023 px     
+    Moblie : < 740px
+ */
+@media (max-width:880px)
+{
+    
+}
+#section1
+{
+    height: 110%;
+}
+.header{
+   width: 100%;
+   height: 50px;
+   background-color: black;
+   position: fixed;
+   top:10;
+}
+.image img {
+    width: 100% ;
+    height: calc(110%);
+    background-size:cover;
+  
+}
+.image h1{
+    margin-top: -120px;
+    color:white;
+    text-align: center;
+}
+.image p{
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.header ul a{
+    color: blanchedalmond;
+    display: inline;
+    padding: 17px;
+    
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+ul:first-child{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.Theband h1{
+    margin: 130px;
+    text-align: center;
+    font-size: 30px;
+}
+.Theband h2{
+    margin-bottom: 20px;
+    margin-top: -100px;
+    text-align: center;
+    font-size: 15px;
+    color:rgb(190, 184, 184);
+}
+
+.Theband p{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 0.6px;
+    
+}
+.Theband ul{
+   display: flex;
+   background-image: url(https://www.w3schools.com/w3images/bandmember.jpg),url(https://www.w3schools.com/w3images/bandmember.jpg),url(https://www.w3schools.com/w3images/bandmember.jpg); 
+}
+
+
+
+/* fixed la cho dung yen */
+    /* margin: 20px; */
+
+ /* background-clip la do mau  */
+
+/*padding là đệm thêm vào làm dày thêm */
+
+     /* bên trên, dưới  va trai phai */
+    
+
+
+
+
+/* padding la lam day len */
+/* border la vien */
+
+/* rem phụ thuộc HTML */
+/* em phụ thuộc thẻ cha gần nhất  */
+/* % thì kiểu reponsive */
+/* px cố định */
