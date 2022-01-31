@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.h1{
+    text-align: center;
+}
+.new{
+    margin-bottom:100px;
+    padding:30px;
+}
+.container{
+    background-image: url('https://scontent.subi.vn/cmsmedia/hinh-anh-background-tet-nguyen-dan-vector-dep-64958799af1edede780d00e1ee39502c.jpg');
+    background-repeat:no-repeat;
+    background-size:100%;
+    height:750px;
+    width: 100%;
+}
+.view-day{
+      height:200px;
+      width:200px;
+      margin-left: 200px;
+      text-align: center;
+      margin-top:-100px;
+}
+#days{
+     font-size:150px;
+}
+.new{
+   text-align: center;
+   
+}
+.view-hour{
+    height:200px;
+    width:200px;
+    margin-left: 500px;
+    margin-top: -200px;
+    text-align: center;
+}
+#hours{
+    font-size:150px;
+}
+.view-minute{
+    height:200px;
+    width:200px;
+    margin-left: 800px;
+    margin-top: -200px;
+    text-align: center;
+}
+#minutes{
+    font-size:150px;
+}
+.view-second{
+    height:200px;
+    width:200px;
+    margin-left: 1100px;
+    margin-top: -200px;
+    text-align: center;
+}
+#seconds{
+    font-size:150px;
+}
+.p-day{
+    font-size:20px;
+}
+.p-hour{
+    font-size:20px;
+    margin-top:-10px;
+}
+.p-minute{
+    font-size:20px;
+    margin-top:-10px;
+}
+.p-second{
+    font-size:20px;
+    margin-top:-10px;
+}
